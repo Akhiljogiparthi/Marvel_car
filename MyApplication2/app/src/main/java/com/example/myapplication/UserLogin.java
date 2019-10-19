@@ -30,6 +30,14 @@ public class UserLogin extends AppCompatActivity {
                 }
             }
         });
+        userfp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(UserLogin.this,forgpas.class);
+                startActivity(i);
+
+            }
+        });
 
         }
 }

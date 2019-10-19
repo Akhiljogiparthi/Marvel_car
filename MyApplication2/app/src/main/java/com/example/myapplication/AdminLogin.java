@@ -30,5 +30,12 @@ public class AdminLogin extends AppCompatActivity {
             }
 
         });
+        adminfp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(AdminLogin.this,forgpas.class);
+                startActivity(i);
+            }
+        });
     }
 }
