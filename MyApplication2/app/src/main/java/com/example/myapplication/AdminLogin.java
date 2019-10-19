@@ -15,16 +15,16 @@ public class AdminLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_login);
-        Button adlogin = (Button)findViewById(R.id.adlogin);
+        Button adlogin1 = (Button)findViewById(R.id.adlogin);
         Button adminfp = (Button) findViewById(R.id.adminfp);
-        TextView adminlogin = (TextView) findViewById(R.id.adlogin);
-        final EditText username = (EditText) findViewById(R.id.username);
+        TextView adminlogin = (TextView) findViewById(R.id.adminlogin);
+        final EditText adusername = (EditText) findViewById(R.id.adusername);
         final EditText adpwd = (EditText) findViewById(R.id.adpwd);
-        adlogin.setOnClickListener(new View.OnClickListener() {
+        adlogin1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if ("admin".equals(username.getText().toString()) && "password".equals(adpwd.getText().toString())) {
-                    Intent i = new Intent(AdminLogin.this, userhome.class);
+                if ("admin".equals(adusername.getText().toString()) && "password".equals(adpwd.getText().toString())) {
+                    Intent i = new Intent(AdminLogin.this,Adminhome.class);
                     startActivity(i);
                 }
             }
