@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".background"></activity>
+        <activity android:name=".recentpayment"></activity>
+        <activity android:name=".recentrentals" />
+        <activity android:name=".searchcars" />
+        <activity android:name=".yourtrips" />
+        <activity android:name=".profile" />
         <activity android:name=".forgpas" />
         <activity android:name=".Adminhome" />
         <activity android:name=".userhome" />
