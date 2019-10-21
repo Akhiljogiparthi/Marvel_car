@@ -13,7 +13,7 @@ public class userhome extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_userhome);
-        Button profile=(Button)findViewById(R.id.profile);
+        Button profile=(Button)findViewById(R.id.vehicle);
         Button yourtrips=(Button)findViewById(R.id.trips);
         Button searchcars=(Button)findViewById(R.id.cars);
         Button recentrentals=(Button)findViewById(R.id.rent);
