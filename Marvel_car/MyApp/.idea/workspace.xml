@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AndroidLayouts">
-    <shared>
-      <config />
-    </shared>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d8f8a9f6-3594-4256-87e0-768b4a36dfa3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/proguard-rules.pro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/androidTest/java/com/example/marvel_cars/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/Employee_activity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/Employee_home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/Home_page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/Sign_up.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/User_login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/create_password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/created_password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/forget_password.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/example/marvel_cars/user_home.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable-v24/icon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_create_password.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_created_password.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_employee_activity.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_employee_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_forget_password.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_home_page.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_sign_up.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_user_home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_user_login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/test/java/com/example/marvel_cars/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" />
-    </list>
+    <list default="true" id="0e2ed516-3d5b-40e7-9468-ccbb7256718e" name="Default Changelist" comment="splash screen created." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,36 +21,10 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/marvel_cars/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -158,10 +74,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="465" />
+    <option name="x" value="495" />
     <option name="y" value="23" />
-    <option name="width" value="975" />
-    <option name="height" value="827" />
+    <option name="width" value="945" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,8 +85,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -254,7 +170,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -318,33 +234,18 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d8f8a9f6-3594-4256-87e0-768b4a36dfa3" name="Default Changelist" comment="" />
-      <created>1572042766793</created>
+      <changelist id="0e2ed516-3d5b-40e7-9468-ccbb7256718e" name="Default Changelist" comment="" />
+      <created>1572043754621</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572042766793</updated>
+      <updated>1572043754621</updated>
     </task>
-    <task id="LOCAL-00001" summary="splash screen added">
-      <created>1572043089275</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1572043089275</updated>
-    </task>
-    <task id="LOCAL-00002" summary="splash screen added">
-      <created>1572043225777</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1572043225777</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="465" y="23" width="975" height="827" extended-state="0" />
+    <frame x="495" y="23" width="945" height="829" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.49410504" />
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.45071983" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -355,13 +256,14 @@
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Run" />
       <window_info anchor="bottom" id="Logcat" />
-      <window_info active="true" anchor="bottom" id="Version Control" sideWeight="0.4994641" visible="true" weight="0.3292517" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Android Profiler" />
       <window_info anchor="bottom" id="Debug" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005359" side_tool="true" weight="0.3292517" />
-      <window_info anchor="bottom" id="Build" sideWeight="0.4994641" weight="0.3292517" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32882273" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32971507" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Gradle" />
@@ -369,48 +271,15 @@
       <window_info anchor="right" id="Palette&#9;" />
     </layout>
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="splash screen added" />
-    <option name="LAST_COMMIT_MESSAGE" value="splash screen added" />
+    <MESSAGE value="splash screen created." />
+    <option name="LAST_COMMIT_MESSAGE" value="splash screen created." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/marvel_cars/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
