@@ -1,11 +1,14 @@
 package com.example.marvel_cars;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import java.util.List;
 
 public class user_home extends AppCompatActivity {
 
@@ -21,8 +24,13 @@ public class user_home extends AppCompatActivity {
         listofvehicles.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(user_home.this,user_listofvehicles.class);
-                startActivity(i);
+                List<user_vehicledata> vehicle =user_datasource.getInstance().vehicle;
+                for (int i=0;i<vehicle.size();i++){
+                    user_vehicledata vehicles = vehicle.get(i);
+                }
+                Intent i1 = new Intent(user_home.this,user_listofvehicles.class);
+                startActivity(i1);
+
             }
         });
         rentvehicle.setOnClickListener(new View.OnClickListener() {
