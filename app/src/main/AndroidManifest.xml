@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".customercreated"></activity>
+        <activity android:name=".user_return_vehicle"></activity>
+        <activity android:name=".customercreated" />
         <activity android:name=".cancelreservation" />
         <activity android:name=".createvehicle" />
         <activity android:name=".empvehiclelist" />
