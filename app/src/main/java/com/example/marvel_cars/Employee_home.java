@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import java.util.List;
+
 public class Employee_home extends AppCompatActivity {
 
     @Override
@@ -22,8 +24,14 @@ public class Employee_home extends AppCompatActivity {
         customerlist.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(Employee_home.this,emp_customerlist.class);
-                startActivity(i);
+
+                List<emp_customer_data> customer = emp_cust_datasource.getInstance().customer;
+                for (int i=0;i<customer.size();i++) {
+                    emp_customer_data customers=customer.get(i);
+                }
+
+                Intent i1 =new Intent(Employee_home.this,emp_customerlist.class);
+                startActivity(i1);
             }
         });
 
