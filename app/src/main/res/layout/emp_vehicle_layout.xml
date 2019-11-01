@@ -11,7 +11,6 @@
         android:layout_height="200dp"
         android:scaleType="fitXY"
         android:src="@drawable/audi1" />
-
     <TextView
         android:id="@+id/albumtitle"
         android:layout_width="match_parent"
@@ -29,10 +28,7 @@
         android:padding="8dp"
         android:text="audi1\nno of seats: 5\nprice: $50/day"
         android:textSize="18dp"
-        android:textStyle="bold|italic"
-
-
-        />
+        android:textStyle="bold|italic" />
     <TextView
         android:id="@+id/Price"
         android:layout_width="match_parent"
@@ -41,11 +37,5 @@
         android:padding="8dp"
         android:text="audi1\nno of seats: 5\nprice: $50/day"
         android:textSize="18dp"
-        android:textStyle="bold|italic"
-
-
-        />
-
-
-
+        android:textStyle="bold|italic" />
 </LinearLayout>

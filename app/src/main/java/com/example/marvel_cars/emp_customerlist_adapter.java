@@ -11,7 +11,8 @@ import androidx.recyclerview.widget.RecyclerView;
 public class emp_customerlist_adapter extends RecyclerView.Adapter<emp_customerlist_adapter.customerviewholder> {
     private int[] cus;
 
-    public emp_customerlist_adapter(int[] customers) { this.cus = customers;
+    public emp_customerlist_adapter(int[] customers) {
+        this.cus = customers;
     }
 
     @Override
