@@ -32,6 +32,14 @@
             android:textSize="18dp"
             android:textStyle="bold|italic"
             android:text="phone number" />
+        <TextView
+            android:id="@+id/tView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="18dp"
+            android:textStyle="bold|italic"
+            android:text="password" />
 
 </LinearLayout>
 

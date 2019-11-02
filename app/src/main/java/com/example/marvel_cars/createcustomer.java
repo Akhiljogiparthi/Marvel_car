@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class createcustomer extends AppCompatActivity {
 
@@ -17,8 +18,8 @@ public class createcustomer extends AppCompatActivity {
         click.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i=new Intent(createcustomer.this,customercreated.class);
-                startActivity(i);
+
+                Toast.makeText(getApplicationContext(),"A customer has been created",Toast.LENGTH_LONG).show();
             }
         });
     }

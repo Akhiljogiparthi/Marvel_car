@@ -4,7 +4,7 @@ public class emp_customer_data {
     String Name;
     String Email;
     String phonenumber;
-
+    String password;
 
 
 }

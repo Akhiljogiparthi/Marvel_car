@@ -11,9 +11,10 @@ public class emp_cust_datasource {
         customer = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             emp_customer_data customerList = new emp_customer_data();
-            customerList.Name = "a" + i;
+            customerList.Name = "mad" + i;
             customerList.Email = "mad314@cegep.com";
             customerList.phonenumber = "123456789" + i;
+            customerList.password = "a"+i;
             customer.add(customerList);
         }
     }

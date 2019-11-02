@@ -19,7 +19,6 @@ public class Employee_home extends AppCompatActivity {
         Button createcustomer=(Button)findViewById(R.id.createcustomer);
         Button vehiclelist=(Button)findViewById(R.id.vehiclelist);
         Button createvehicle=(Button)findViewById(R.id.createvehicle);
-        Button cancelreservation=(Button)findViewById(R.id.cancelreservation);
 
         customerlist.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,13 +55,7 @@ public class Employee_home extends AppCompatActivity {
                 startActivity(i);
             }
         });
-        cancelreservation.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i=new Intent(Employee_home.this,cancelreservation.class);
-                startActivity(i);
-            }
-        });
+
 
     }
 }

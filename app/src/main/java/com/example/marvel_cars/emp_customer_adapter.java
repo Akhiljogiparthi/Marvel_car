@@ -24,6 +24,7 @@ public class emp_customer_adapter extends RecyclerView.Adapter<emp_customer_view
         holder.tView7.setText(String.valueOf(customer1.Name));
         holder.tView8.setText(String.valueOf(customer1.Email));
         holder.tView9.setText(String.valueOf(customer1.phonenumber));
+        holder.tView10.setText(String.valueOf(customer1.password));
     }
 
     @Override

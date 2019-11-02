@@ -32,7 +32,7 @@ public class emp_vehiclelist_adapter extends RecyclerView.Adapter<emp_vehiclelis
         holder.album.setImageResource(imageid);
         holder.albumtitle.setText("audi :"+(position+1));
         holder.numberofseats.setText("No of seats:"+(position+1));
-        holder.price.setText("Price per day:$"+(position*10+10));
+        holder.price.setText("Price per day:$"+(position*10+100));
     }
 
     @Override

@@ -17,8 +17,6 @@ public class user_home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_home);
         Button listofvehicles=(Button)findViewById(R.id.vehicle);
-        Button rentvehicle=(Button)findViewById(R.id.rent);
-        Button reservevehicle=(Button)findViewById(R.id.reserve);
         Button reservationlist=(Button)findViewById(R.id.listreservations);
         Button Return=(Button)findViewById(R.id.Return);
         listofvehicles.setOnClickListener(new View.OnClickListener() {
@@ -31,20 +29,6 @@ public class user_home extends AppCompatActivity {
                 Intent i1 = new Intent(user_home.this,user_listofvehicles.class);
                 startActivity(i1);
 
-            }
-        });
-        rentvehicle.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            Intent i = new Intent(user_home.this,vehicleforrent.class);
-            startActivity(i);
-        }
-    });
-        reservevehicle.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(user_home.this,reservevehicle.class);
-                startActivity(i);
             }
         });
         reservationlist.setOnClickListener(new View.OnClickListener() {

@@ -24,9 +24,11 @@ public class emp_customerlist_adapter extends RecyclerView.Adapter<emp_customerl
 
     @Override
     public void onBindViewHolder(@NonNull emp_customerlist_adapter.customerviewholder holder, int position) {
-        holder.tView7.setText("Name:mad" + (position + 1));
+        holder.tView7.setText("UserName:mad" + (position + 1));
         holder.tView8.setText("Email:mad12" + (position + 1) + "@cegep.com");
         holder.tView9.setText("Ph No:123456789" + position);
+        holder.tView10.setText("password: a" + (position+1) );
+
 
     }
 
@@ -39,6 +41,7 @@ public class emp_customerlist_adapter extends RecyclerView.Adapter<emp_customerl
         TextView tView7;
         TextView tView8;
         TextView tView9;
+        TextView tView10;
 
 
         public customerviewholder(@NonNull View itemView) {
@@ -46,6 +49,7 @@ public class emp_customerlist_adapter extends RecyclerView.Adapter<emp_customerl
             tView7 = itemView.findViewById(R.id.tView7);
             tView8 = itemView.findViewById(R.id.tView8);
             tView9= itemView.findViewById(R.id.tView9);
+            tView10=itemView.findViewById(R.id.tView10);
         }
     }
 }
